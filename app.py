@@ -2,8 +2,8 @@ import streamlit as st
 import yt_dlp
 from sentence_transformers import SentenceTransformer
 
-from langchain.vectorstores import FAISS
-from langchain.embeddings import HuggingFaceEmbeddings
+from langchain_community.vectorstores import FAISS
+from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 from openai import OpenAI
